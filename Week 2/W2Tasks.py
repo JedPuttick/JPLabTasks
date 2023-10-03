@@ -32,8 +32,8 @@ elif direction.upper() == "RIGHT":
 else:
     print("Invalid direction")
 
-# -----------
-
+# ----------
+'''
 number = int(input("Input a number: "))
 
 if number % 2 > 0:
@@ -42,7 +42,7 @@ else:
     print("Number is even")
 
 # ----------
-
+'''
 number2 = int(input("Input number 1: "))
 number3 = int(input("Input number2: "))
 
@@ -61,7 +61,7 @@ for i in range(3):
     numbers.append(int(input("Input a number")))
 
 for i in numbers:
-    if i % 2 < 0:
+    if i % 2 > 0:
         odd += 1
     else:
         even += 1
